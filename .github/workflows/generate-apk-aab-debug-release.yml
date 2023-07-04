@@ -38,6 +38,7 @@ jobs:
         with:
           distribution: 'zulu' # See 'Supported distributions' for available options
           java-version: '19'
+          continue-on-error: true
           #cache: 'gradle'
 
       - name: Change wrapper permissions
