@@ -6,7 +6,7 @@
 .gradle/
 #gradle/
 /build
-gradlew*
+#gradlew*
 /captures
 .externalNativeBuild
 .project
